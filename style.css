@@ -3,7 +3,8 @@
 body {
   background: #17171a;
   font-family: 'Poppins';
- overflow-x: hidden;  }
+  overflow-x: hidden;
+}
 
 .title {
   position: relative;
@@ -40,14 +41,14 @@ body {
 
 .bellsvg {
   float: right;
-   margin-top: -48px;
-   margin-right:120px;
+  margin-top: -48px;
+  margin-right: 120px;
 }
 
 .profilesvg {
   float: right;
-   margin-top: -48px;
-   margin-right:40px;
+  margin-top: -48px;
+  margin-right: 40px;
 }
 
 
@@ -93,7 +94,7 @@ nav .logo {
 nav .sidebar {
   position: absolute;
   top: 58px;
-  height:  408px;
+  height: 408px;
   width: 180px;
   border-radius: 0 0 5px 0;
   background-color: #20222B;
@@ -132,17 +133,19 @@ nav .sidebar {
 .lists .link:hover {
   color: #fff;
 }
+
 /* Balance card */
 .card {
   background: #07C86B;
   display: flex;
   width: 314px;
-  height:190px;
+  height: 190px;
   border-radius: 15px;
   margin-left: 280px;
   margin-top: 55px;
 
 }
+
 .ellipse1 {
   position: absolute;
   box-sizing: border-box;
@@ -186,7 +189,7 @@ h4 {
   left: 293px;
   font-size: 30px;
   font-weight: 600;
- }
+}
 
 .cardbutton {
   display: inline-block;
@@ -209,6 +212,7 @@ h4 {
   cursor: pointer;
 
 }
+
 /*-------------------trasaction table-----------------*/
 .transaction {
   position: relative;
@@ -230,7 +234,7 @@ h4 {
   text-align: center;
   top: 19%;
   font-size: 8px;
-  padding-bottom:106px ;
+  padding-bottom: 106px;
 }
 
 .transaction>.payment>div {
@@ -239,6 +243,7 @@ h4 {
   gap: 10px;
   font-size: 10px;
 }
+
 .transaction>.payment>div>h5 {
   position: absolute;
   display: flex;
@@ -247,10 +252,12 @@ h4 {
   font-size: 11px;
   color: gray;
 }
-.icon6{
+
+.icon6 {
   position: relative;
-  top:8px;
+  top: 8px;
 }
+
 .transaction>.view-all>div {
   margin-bottom: 26px;
 }
@@ -262,6 +269,7 @@ h4 {
   margin-left: -298px;
   font-size: 15px;
 }
+
 /*-------------------Add-Money-----------------*/
 .addmoney {
   width: 40%;
@@ -271,6 +279,7 @@ h4 {
   position: absolute;
   left: 890px;
 }
+
 .moneycard {
   width: 60%;
   height: 364px;
@@ -279,11 +288,13 @@ h4 {
   border: 3px solid #2A2D3C;
   color: white;
 }
+
 .cardtitle {
   font-size: 1.2rem;
   font-weight: 500;
   margin-bottom: 1rem;
 }
+
 .input {
   position: relative;
 }
@@ -322,7 +333,7 @@ h4 {
   margin-top: 30px;
 }
 
-.capsule {
+.tabs {
   background: #2a2d3c;
   padding: 7px;
   color: #febf32;
@@ -334,7 +345,7 @@ h4 {
   position: relative;
 }
 
-.capsule.popular::after {
+.tabs.popular::after {
   content: "Popular";
   position: absolute;
   top: -1.3rem;
@@ -348,8 +359,8 @@ h4 {
   -webkit-background-clip: text;
 }
 
-.capsule:hover,
-.capsule.active {
+.tabs:hover,
+.tabs.active {
   color: 2A2D3C;
   background: #0db263;
 }
@@ -360,13 +371,15 @@ h4 {
   align-items: center;
   width: 93%;
   border-radius: 5px;
-   background: #514615;
-   padding-left: 20px;
+  background: #514615;
+  padding-left: 20px;
 }
+
 .send-money-details {
   display: flex;
   flex-direction: column;
- }
+}
+
 .sub-details {
   display: flex;
   width: 100%;
@@ -374,10 +387,10 @@ h4 {
   gap: 4rem;
   font-size: 14px;
   color: #a5a8b9;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
-.know-more {margin-left: 192px;margin-bottom: 0px;padding-top: 0px;margin-top: -25px;
+.know-more {
   color: #FEBF32;
 }
 
@@ -400,65 +413,46 @@ h4 {
   font-family: 'Poppins';
 }
 
-
-
-
-
-
-
-
-
-
+/*-------------------modal-----------------*/
 .modal {
   display: none;
-  /* Hidden by default */
   position: fixed;
-  /* Stay in place */
   z-index: 1;
-  /* Sit on top */
   padding-top: 100px;
-  /* Location of the box */
   left: 0;
   top: 0;
   width: 100%;
-  /* Full width */
   height: 100%;
-  /* Full height */
-   /* Enable scroll if needed */
   background-color: rgb(0, 0, 0);
-  /* Fallback color */
   background-color: rgba(0, 0, 0, 0.9);
-  
-  /* Black w/ opacity */
 }
 
-/* Modal Content */
 .modal-content {
-  background-color:  #2A2D3C;
+  background-color: #2A2D3C;
   margin: auto;
   padding: 20px;
-   width: 25%;
-   box-shadow:  0px 0px 10.6941px rgba(0, 0, 0, 0.5);
-   border-radius: 11.8824px;
+  width: 25%;
+  box-shadow: 0px 0px 10.6941px rgba(0, 0, 0, 0.5);
+  border-radius: 11.8824px;
 }
 
-/* The Close Button */
 .close {
   color: #FFFFFF;
   float: right;
   font-size: 28px;
- }
+}
 
 .close:hover,
 .close:focus {
-  color:  #febf32;
+  color: #febf32;
   text-decoration: none;
   cursor: pointer;
 }
 
 .PopHeading {
   font-size: 14px;
-  color: #CCCDCC;font-family: 'Poppins';
+  color: #CCCDCC;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -469,13 +463,14 @@ h4 {
   font-size: 26px;
   font-weight: bold;
 }
+
 .lastButton {
   margin-top: 10px;
   text-align: center;
   font-family: 'Poppins', sans-serif;
 }
 
-.btn-popup {
+.popupbuttons {
   font-family: 'Poppins', sans-serif;
   background: #FEBF32;
   border: #FEBF32;
@@ -487,7 +482,7 @@ h4 {
 }
 
 .sendersdetail {
-  border: solid 1px  #ABAFC4;
+  border: solid 1px #ABAFC4;
   border-radius: 10px;
   font-size: 13px;
   padding: 2px 10px;
@@ -505,7 +500,7 @@ h4 {
 
 .greenbox {
   height: 60px;
-  background-color:  #3e5b48;
+  background-color: #3e5b48;
   margin-top: 10px;
   border-radius: 5px;
   padding-left: 8px;
@@ -525,11 +520,13 @@ h4 {
   padding: 8px;
   margin-left: 0px;
 }
-.copyicon{
+
+.copyicon {
   position: absolute;
   margin-left: 230px;
- top: 621px;
+  top: 621px;
 }
+
 .text1 {
   margin-left: 50px;
   padding-top: 7px;

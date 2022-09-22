@@ -434,6 +434,7 @@ h4 {
   width: 25%;
   box-shadow: 0px 0px 10.6941px rgba(0, 0, 0, 0.5);
   border-radius: 11.8824px;
+  color: #FFFFFF;
 }
 
 .close {
@@ -531,3 +532,7 @@ h4 {
   margin-left: 50px;
   padding-top: 7px;
 }
+.blurcontainer#blur.active{
+  filter:blur(15px);
+}
+ 

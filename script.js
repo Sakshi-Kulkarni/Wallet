@@ -64,4 +64,8 @@ function updateInput(){
         document.getElementById("am-inp").textContent = output;
 }
 
- 
+function toggle(){
+  var blur=document.getElementById('blur');
+  blur.classList.toggle('active');
+}
+
